@@ -60,6 +60,7 @@ RUN apt-get -yqq install python-matplotlib
 RUN apt-get -yqq install python-pytest
 RUN apt-get -yqq install python-six
 RUN apt-get -yqq install swig3.0
+RUN apt-get -yqq install gdb
 
 # Update pip by PyPI
 RUN pip install --upgrade setuptools pip
